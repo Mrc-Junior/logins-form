@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*, :root
+{
+  margin: 0; padding: 0; outline: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root
+{
+  font-size: 62.5%;
+  --bs-body-bg: #e0deee;
+}
+
+body {
+  height: 100vh;
+  background: var(--bs-body-bg);
+  display: grid;
+  place-content: center;
+  font-size: 1.6rem;
+}
+.content
+{
+  width: 600px;
+  max-width: 720px;
+  background-color: #fff;
+  padding: 8.5rem;
+  margin: 1rem;
+  border-radius: 1.5rem;
+  box-shadow: 8px 8px 8px 8px rgba(58, 15, 15, 0.12);
+  display: grid;
+  place-content: center;
+}
+.content form input {
+  width: 100%;
+  height: 3.8rem;
+  outline: none;
+  border: 1px solid rgba(58, 15, 15, 0.12);
+  border-radius: .8rem;
+}
+
+.divider
+{
+  color: #6e6ecd;
+  margin-bottom: .5rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.divider .line
+{
+  background: #bbb;
+  width: 100%;
+  height: 1px;
+  flex: 1;
+}
+
+.social-buttons
+{
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.social-buttons a
+{
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  font-size: 1.6rem;
+  text-decoration: none;
+  display: grid;
+  place-content: center;
+  border: 1px solid rgba(58, 15, 15, 0.12);
+  border-radius: .8rem;
+}
+.social-buttons a:nth-child(1)
+{
+  background-color: #3d5b96;
+}
+.social-buttons a:nth-child(1):hover
+{
+  background-color: #1b51bdb7;
+}
+.social-buttons a:nth-child(2)
+{
+  background-color: #2aa3ef;
+}
+.social-buttons a:nth-child(2):hover
+{
+  background-color: #0b81ca;
+}
+.social-buttons a:nth-child(3)
+{
+  background-color: #1178b3;
+}
+.social-buttons a:nth-child(3):hover
+{
+  background-color: #0997e9;
+}
+.social-buttons a:nth-child(4)
+{
+  background-color: #ff4501;
+}
+.social-buttons a:nth-child(4):hover
+{
+  background-color: #ff45019b;
+}
+
+a.forgot-password
+{
+  font-family: 'Roboto', sans-serif;
+  padding: 1.5rem;
+  color: rgba(58, 15, 15, 0.12);
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.forgot-password:hover
+{
+  font-family: 'Roboto', sans-serif;
+  padding: 1.5rem;
+  color: #6e6ecd;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.8s ease-in-out;
+}
+
+fieldset legend {
+  display: flex;
+  border: 1px solid transparent;
+  margin: 10px auto;
+  align-items: center;
+  justify-content: center;
+}
